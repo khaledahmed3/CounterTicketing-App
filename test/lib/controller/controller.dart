@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:test/Model/counter.dart';
 import 'package:test/Model/ticket.dart';
 import 'package:test/rest.dart';
-import 'package:test/services/Controller_services.dart';
 
 class Controller extends ChangeNotifier {
-  ControllerServices controllerServices = ControllerServices();
 
   Ticket? ticket;
   List<Counter> counters = [];

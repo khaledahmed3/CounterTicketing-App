@@ -6,7 +6,8 @@ class Rest {
 
   // static const String _baseUrl = 'http://192.168.0.181:3000';
   static const String _baseUrl =
-      'http://10.0.2.2:5001/test-d2459/us-central1/api';
+      'https://us-central1-test-d2459.cloudfunctions.net/api';
+  // 'http://10.0.2.2:5001/test-d2459/us-central1/api';
   // 'http://192.168.0.2:4000/api';
 
   // Send a GET request to retrieve data from a REST server
